@@ -13,17 +13,32 @@
 
 @font-face {
   font-family: "Klim";
-  src: url("/fonts/UntitledSansWeb-Regular.eot") format("eot");
-  src: url("/fonts/UntitledSansWeb-Regular.woff2") format("woff2"),
-       url("/fonts/UntitledSansWeb-Regular.woff") format("woff");
+  src: url("fonts/UntitledSansWeb-Regular.eot") format("eot");
+  src: url("fonts/UntitledSansWeb-Regular.woff2") format("woff2"),
+       url("fonts/UntitledSansWeb-Regular.woff") format("woff");
 }
 
 html {
   background-color: #000;
-  color: #222;
+  color: #fff;
   font-size: 1em;
   font-family: 'Klim', sans-serif;
   line-height: 1.4;
+}
+
+h1,
+p,
+a {
+ margin: 0;  
+}
+
+h1,
+p {
+   font-size: 2em;
+}
+
+a {
+   text-transform: uppercase;
 }
 
 /*
